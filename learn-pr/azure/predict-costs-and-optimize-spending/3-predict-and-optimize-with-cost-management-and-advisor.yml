@@ -1,0 +1,34 @@
+### YamlMime:ModuleUnit
+uid: learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor
+title: Predicción y optimización con Cost Management y Azure Advisor
+metadata:
+  title: Predicción y optimización con Cost Management y Azure Advisor
+  description: En esta unidad, trataremos acerca de cómo predecir y optimizar con Cost Management y Azure Advisor
+  ms.openlocfilehash: 88e546cd9c7f44f147406d8d0e4f895b491f7818
+  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "42615877"
+durationInMinutes: 10
+content: >
+  [!include[](includes/3-predict-and-optimize-with-cost-management-and-advisor.md)]
+quiz:
+  title: Predicción y optimización con Cost Management y Azure Advisor
+  questions:
+  - content: Azure Advisor solo proporciona recomendaciones sobre el coste.
+    choices:
+    - content: Verdadero
+      incorrectExplanation: Azure Advisor proporciona recomendaciones sobre alta disponibilidad, seguridad, rendimiento y coste.
+      isCorrect: false
+    - content: Falso
+      correctExplanation: Azure Advisor proporciona recomendaciones sobre alta disponibilidad, seguridad, rendimiento y coste.
+      isCorrect: true
+  - content: 'Azure Cost Management le permite _________:'
+    choices:
+    - content: Ver desgloses históricos de los servicios en los cuales está gastando su dinero.
+      correctExplanation: Cost Management analiza dónde gasta históricamente su dinero y puede realizar un seguimiento de este gasto en relación con los presupuestos que haya establecido.
+      isCorrect: true
+    - content: Ver las estimaciones del posible coste de sus servicios si realiza un cambio.
+      incorrectExplanation: Para ver las estimaciones de coste, use la calculadora de precios de Azure. Cost Management analiza dónde gasta históricamente su dinero y puede realizar un seguimiento de este gasto en relación con los presupuestos que haya establecido.
+      isCorrect: false

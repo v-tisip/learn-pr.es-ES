@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-compute.4-knowledge-check
+title: Comprobación de conocimientos
+metadata:
+  title: Comprobación de conocimientos
+  description: Comprobación de conocimientos para el módulo “Introducción a Azure Compute”.
+  ms.openlocfilehash: d7c3f166bab42dfd3ab34e11ce5f399e0375e6f7
+  ms.sourcegitcommit: 0e0cc41b7669e7149541f34f3f24ba0e864ed07d
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/23/2018
+  ms.locfileid: "42702493"
+durationInMinutes: 7
+content: >
+  [!include[](includes/4-knowledge-check.md)]
+quiz:
+  title: Introducción a la comprobación de conocimientos de Azure Compute
+  questions:
+  - content: Imagine que su equipo de astronomía es pequeño y que, si bien los miembros del equipo son programadores y astrónomos de nivel superior, tan solo tienen conocimientos rudimentarios de la administración de servidores y web. ¿Cuál de las siguientes opciones debería elegir?
+    choices:
+    - content: Azure Kubernetes Service (AKS)
+      isCorrect: false
+      incorrectExplanation: Kubernetes requiere conocimientos avanzados acerca de la orquestación de contenedores.
+    - content: Service Fabric
+      isCorrect: false
+      incorrectExplanation: El trabajo de los astrónomos no necesariamente debe distribuirse de forma global o generalizada.
+    - content: App Service
+      isCorrect: true
+      correctExplanation: Dado que está completamente administrado y ajusta la escala de sus aplicaciones, el equipo puede centrarse en escribir su software especializado.
+  - content: Imagine que su equipo de astronomía necesita determinados cálculos astronómicos que tardan horas, incluso días, en completarse. La ejecución en paralelo no parece ser de mucha ayuda. ¿Cuál de las siguientes opciones debería elegir?
+    choices:
+    - content: Cloud Services
+      isCorrect: false
+      incorrectExplanation: No todos los cálculos astronómicos se pueden ejecutar en paralelo, por lo que implementar máquinas virtuales adicionales solo puede mejorar el rendimiento de una forma marginal.
+    - content: Azure Batch
+      isCorrect: true
+      correctExplanation: Ciertos cálculos astronómicos requieren funcionalidades de supercomputadora.
+    - content: Azure Container Instances
+      isCorrect: false
+      incorrectExplanation: Es posible que no todos los cálculos astronómicos puedan ejecutarse en paralelo, por lo que implementar contenedores adicionales solo puede mejorar el rendimiento de una forma marginal.
