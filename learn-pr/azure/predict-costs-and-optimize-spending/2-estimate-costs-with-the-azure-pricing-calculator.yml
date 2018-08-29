@@ -1,0 +1,34 @@
+### YamlMime:ModuleUnit
+uid: learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator
+title: <span data-ttu-id="24111-101">Estimación de los costos con la calculadora de precios de Azure</span><span class="sxs-lookup"><span data-stu-id="24111-101">Estimate costs with the Azure pricing calculator</span></span>
+metadata:
+  title: <span data-ttu-id="24111-102">Estimación de los costos con la calculadora de precios de Azure</span><span class="sxs-lookup"><span data-stu-id="24111-102">Estimate costs with the Azure pricing calculator</span></span>
+  description: <span data-ttu-id="24111-103">En esta unidad, analizaremos cómo calcular los costos con la calculadora de precios de Azure.</span><span class="sxs-lookup"><span data-stu-id="24111-103">In this unit, we'll discuss how to estimate costs with the Azure pricing calculator</span></span>
+  ms.openlocfilehash: 8667c62411c9155d1bb116dd36da0014f038e15b
+  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "42614522"
+durationInMinutes: 15
+content: >
+  [!include[](includes/2-estimate-costs-with-the-azure-pricing-calculator.md)]
+quiz:
+  title: <span data-ttu-id="24111-104">Estimación de los costos con la calculadora de precios de Azure</span><span class="sxs-lookup"><span data-stu-id="24111-104">Estimate costs with the Azure pricing calculator</span></span>
+  questions:
+  - content: <span data-ttu-id="24111-105">¿En qué pestaña de la calculadora de precios de Azure formulará su estimación?</span><span class="sxs-lookup"><span data-stu-id="24111-105">In which tab of the Azure pricing calculator will you formulate your estimate?</span></span>
+    choices:
+    - content: <span data-ttu-id="24111-106">Presupuesto</span><span class="sxs-lookup"><span data-stu-id="24111-106">Estimate</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="24111-107">Esta pestaña tiene todas las estimaciones que guardó anteriormente.</span><span class="sxs-lookup"><span data-stu-id="24111-107">This tab has all of your previously saved estimates.</span></span>
+    - content: <span data-ttu-id="24111-108">Productos</span><span class="sxs-lookup"><span data-stu-id="24111-108">Products</span></span>
+      isCorrect: true
+      correctExplanation: <span data-ttu-id="24111-109">En esta pestaña se muestran todos los servicios de Azure y es donde agregará o quitará servicios para formular la estimación.</span><span class="sxs-lookup"><span data-stu-id="24111-109">This tab has all the Azure services listed and is where you'll add or remove services to formulate your estimate.</span></span>
+  - content: <span data-ttu-id="24111-110">Puede compartir su estimación con una hoja de cálculo de Excel o una dirección URL.</span><span class="sxs-lookup"><span data-stu-id="24111-110">You can share your estimate through an Excel spreadsheet or through a URL.</span></span>
+    choices:
+    - content: <span data-ttu-id="24111-111">True</span><span class="sxs-lookup"><span data-stu-id="24111-111">True</span></span>
+      isCorrect: true
+      correctExplanation: <span data-ttu-id="24111-112">Al hacer clic en <b>Exportar</b> en la parte inferior de la estimación, exportará una hoja de cálculo de Excel que puede compartir, o puede hacer clic en <b>Compartir</b> para obtener un vínculo de la dirección URL que puede compartir con su equipo.</span><span class="sxs-lookup"><span data-stu-id="24111-112">Clicking <b>Export</b> at the bottom of the estimate will export an Excel spreadsheet that you can share, or you can click <b>Share</b> to get a URL link that you can share with your team.</span></span>
+    - content: <span data-ttu-id="24111-113">False</span><span class="sxs-lookup"><span data-stu-id="24111-113">False</span></span>
+      isCorrect: false
+      incorrectExplanation: <span data-ttu-id="24111-114">Al hacer clic en <b>Exportar</b> en la parte inferior de la estimación, exportará una hoja de cálculo de Excel que puede compartir, o puede hacer clic en <b>Compartir</b> para obtener un vínculo de la dirección URL que puede compartir con su equipo.</span><span class="sxs-lookup"><span data-stu-id="24111-114">Clicking <b>Export</b> at the bottom of the estimate will export an Excel spreadsheet that you can share, or you can click <b>Share</b> to get a URL link that you can share with your team.</span></span>

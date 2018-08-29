@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn.manage-secrets-with-azure-key-vault
+title: Administración de secretos en aplicaciones web con Azure Key Vault
+summary: La aplicación requiere contraseñas de servicio, cadenas de conexión y otros valores de configuración del secreto para hacer su trabajo. El almacenamiento y control de valores de secreto es arriesgado, y cada uso introduce la posibilidad de pérdidas. Azure Key Vault, junto con la característica Managed Service Identity de Azure App Service, permite el acceso de la aplicación web de Azure a los valores de configuración del secreto de forma fácil y segura sin necesidad de almacenar los secretos en el control de código fuente o la configuración.
+cardDescription: Almacene de forma segura los valores de configuración del secreto en Azure Key Vault y tenga acceso a ellos forma segura desde su aplicación web de Azure con Managed Service Identity.
+iconUrl: /learn/modules/manage-secrets-with-azure-key-vault/achievement/manage-secrets-with-azure-key-vault.svg
+achievement: learn.manage-secrets-with-azure-key-vault.badge
+levels:
+- beginner
+roles:
+- developer
+products:
+- Azure
+metadata:
+  title: Administración de secretos en aplicaciones web con Azure Key Vault
+  description: En este módulo, aprenderá a crear una instancia de Key Vault y almacenar un secreto en ella. Verá cómo configurar una aplicación web que utilice Managed Service Identity para permitir el acceso seguro al almacén sin ninguna configuración y, por último, implementará una aplicación web ASP.NET Core que recupere los secretos del almacén.
+  ms.openlocfilehash: ba109c56ec8d43e40ac534c1b28317542dd5e938
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40445432"
+abstract: >
+  * Cree una instancia de Azure Key Vault y utilícela para almacenar valores de configuración de secretos.
+
+  * Permita el acceso seguro al almacén desde una aplicación web de Azure App Service con Managed Service Identity.
+
+  * Implemente una aplicación web ASP.NET Core que recupera los secretos del almacén.
+units:
+- learn.manage-secrets-with-azure-key-vault.1-introduction
+- learn.manage-secrets-with-azure-key-vault.2-what-is-key-vault
+- learn.manage-secrets-with-azure-key-vault.3-creating-vaults-storing-secrets
+- learn.manage-secrets-with-azure-key-vault.4-authentication-with-managed-service-identity
+- learn.manage-secrets-with-azure-key-vault.5-access-secrets-from-web-app
+- learn.manage-secrets-with-azure-key-vault.6-configure-deploy-run-azure
+- learn.manage-secrets-with-azure-key-vault.7-summary

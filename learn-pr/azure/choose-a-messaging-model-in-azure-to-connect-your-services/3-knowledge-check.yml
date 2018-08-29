@@ -1,0 +1,23 @@
+### YamlMime:ModuleUnit
+uid: learn.choose-messaging-model.3-knowledge-check
+title: '<span data-ttu-id="b8add-101">Comprobación de conocimientos: ¿por qué usar mensajes de eventos?</span><span class="sxs-lookup"><span data-stu-id="b8add-101">Knowledge check - why use events messages</span></span>'
+metadata:
+  title: '<span data-ttu-id="b8add-102">Comprobación de conocimientos: ¿por qué usar mensajes de eventos?</span><span class="sxs-lookup"><span data-stu-id="b8add-102">Knowledge check - why use events messages</span></span>'
+  description: '<span data-ttu-id="b8add-103">Comprobación de conocimientos: ¿por qué usar mensajes de eventos?</span><span class="sxs-lookup"><span data-stu-id="b8add-103">Knowledge check - why use events messages</span></span>'
+  ms.openlocfilehash: 5ab19c8075ef9037d4258ecd4d0c1da0348fff08
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40445270"
+durationInMinutes: 3
+quiz:
+  title: <span data-ttu-id="b8add-104">Modelos de mensajes</span><span class="sxs-lookup"><span data-stu-id="b8add-104">Messaging models</span></span>
+  questions:
+  - content: "<span data-ttu-id=\"b8add-105\">En la aplicación distribuida tiene un servicio web que autentica a los usuarios.</span><span class=\"sxs-lookup\"><span data-stu-id=\"b8add-105\">In your distributed application you have a web service that authenticates users.</span></span> <span data-ttu-id=\"b8add-106\">Cuando un usuario inicia sesión, el servicio web debe comunicarse con una aplicación de escritorio que se ejecuta en los equipos de todos los usuarios para mostrar el estado de ese usuario como \"En línea\".</span><span class=\"sxs-lookup\"><span data-stu-id=\"b8add-106\">When a user logs on, the web service must communicate with a desktop application that runs on all users' computers to display the status of that user as \"Online\".</span></span> <span data-ttu-id=\"b8add-107\">True o false: este es un ejemplo de un mensaje en una aplicación distribuida.</span><span class=\"sxs-lookup\"><span data-stu-id=\"b8add-107\">True or false: This is an example of a message in a distributed application.</span></span>"
+    choices:
+    - content: <span data-ttu-id="b8add-108">True</span><span class="sxs-lookup"><span data-stu-id="b8add-108">True</span></span>
+      incorrectExplanation: <span data-ttu-id="b8add-109">Este es un ejemplo de un evento en una aplicación distribuida.</span><span class="sxs-lookup"><span data-stu-id="b8add-109">This is an example of an event in a distributed application.</span></span> <span data-ttu-id="b8add-110">La comunicación se enruta a todos los suscriptores y el publicador no tiene conocimientos ni preferencias sobre cómo un suscriptor controla la comunicación, ni siquiera sabe cuántos suscriptores hay, si los hay.</span><span class="sxs-lookup"><span data-stu-id="b8add-110">The communication is routed to all subscribers and the publisher has no knowledge or preference on how the communication is handled by a subscriber, nor even any knowledge of how many subscribers there are, if any.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="b8add-111">False</span><span class="sxs-lookup"><span data-stu-id="b8add-111">False</span></span>
+      isCorrect: true

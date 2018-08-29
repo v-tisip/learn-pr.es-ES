@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: principles-cloud-computing.5-types-of-cloud-services
+title: <span data-ttu-id="c19d6-101">Tipos de servicios en la nube</span><span class="sxs-lookup"><span data-stu-id="c19d6-101">Types of cloud services</span></span>
+metadata:
+  title: <span data-ttu-id="c19d6-102">Tipos de servicios en la nube</span><span class="sxs-lookup"><span data-stu-id="c19d6-102">Types of cloud services</span></span>
+  description: <span data-ttu-id="c19d6-103">Tipos de servicios en la nube</span><span class="sxs-lookup"><span data-stu-id="c19d6-103">Types of cloud services</span></span>
+  ms.openlocfilehash: c55bafa11cfe4cded42f7e3e8be4d1974537b352
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40446777"
+durationInMinutes: 10
+content: '[!include[](includes/5-types-of-cloud-services.md)]'

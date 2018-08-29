@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit
+uid: learn.predict-costs-and-optimize-spending.4-save-on-infrastructure-costs
+title: <span data-ttu-id="8247c-101">Ahorro en costos de infraestructura</span><span class="sxs-lookup"><span data-stu-id="8247c-101">Save on infrastructure costs</span></span>
+metadata:
+  title: <span data-ttu-id="8247c-102">Ahorro en costos de infraestructura</span><span class="sxs-lookup"><span data-stu-id="8247c-102">Save on infrastructure costs</span></span>
+  description: <span data-ttu-id="8247c-103">En esta unidad, analizaremos cómo ahorrar en costos de infraestructura</span><span class="sxs-lookup"><span data-stu-id="8247c-103">In this unit, we'll discuss how to save on infrastructure costs</span></span>
+  ms.openlocfilehash: ea6ad618f98c79c33bf6c0c04b2cd71fdb00fa21
+  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "42614828"
+durationInMinutes: 10
+content: >
+  [!include[](includes/4-save-on-infrastructure-costs.md)]
+quiz:
+  title: <span data-ttu-id="8247c-104">Ahorro en costos de infraestructura</span><span class="sxs-lookup"><span data-stu-id="8247c-104">Save on infrastructure costs</span></span>
+  questions:
+  - content: <span data-ttu-id="8247c-105">¿Cuál de estas <b>no</b> es una solución de ahorro de costos?</span><span class="sxs-lookup"><span data-stu-id="8247c-105">Which one of these is <b>not</b> a cost-saving solution?</span></span>
+    choices:
+    - content: <span data-ttu-id="8247c-106">Desasignar máquinas virtuales en las horas de inactividad.</span><span class="sxs-lookup"><span data-stu-id="8247c-106">Deallocate virtual machines in off hours.</span></span>
+      incorrectExplanation: <span data-ttu-id="8247c-107">Con Azure Reserved Virtual Machine Instances, desasignar las máquinas virtuales fuera del horario laboral, ajustar el tamaño de máquinas virtuales infrautilizadas, eliminar las máquinas virtuales sin usar y migrar a PaaS o SaaS son ejemplos de soluciones de ahorro de costos.</span><span class="sxs-lookup"><span data-stu-id="8247c-107">Using Azure Reserved Virtual Machine Instances, deallocating virtual machines in off hours, right-sizing underutilized virtual machines, deleting unused virtual machines, and migrating to PaaS or SaaS are all examples of cost-saving solutions.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="8247c-108">Usar Azure Reserved Virtual Machine Instances.</span><span class="sxs-lookup"><span data-stu-id="8247c-108">Use Azure Reserved Virtual Machine Instances.</span></span>
+      incorrectExplanation: <span data-ttu-id="8247c-109">Con Azure Reserved Virtual Machine Instances, desasignar las máquinas virtuales fuera del horario laboral, ajustar el tamaño de máquinas virtuales infrautilizadas, eliminar las máquinas virtuales sin usar y migrar a PaaS o SaaS son ejemplos de soluciones de ahorro de costos.</span><span class="sxs-lookup"><span data-stu-id="8247c-109">Using Azure Reserved Virtual Machine Instances, deallocating virtual machines in off hours, right-sizing underutilized virtual machines, deleting unused virtual machines, and migrating to PaaS or SaaS are all examples of cost-saving solutions.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="8247c-110">Equilibrar la carga de las máquinas virtuales para los mensajes entrantes.</span><span class="sxs-lookup"><span data-stu-id="8247c-110">Load balance your virtual machines for incoming messages.</span></span>
+      correctExplanation: <span data-ttu-id="8247c-111">El equilibrio de carga se usa para optimizar el rendimiento.</span><span class="sxs-lookup"><span data-stu-id="8247c-111">Load balancing is used for performance optimization.</span></span> <span data-ttu-id="8247c-112">Con Azure Reserved Virtual Machine Instances, desasignar las máquinas virtuales fuera del horario laboral, ajustar el tamaño de máquinas virtuales infrautilizadas, eliminar las máquinas virtuales sin usar y migrar a PaaS o SaaS son ejemplos de soluciones de ahorro de costos.</span><span class="sxs-lookup"><span data-stu-id="8247c-112">Using Azure Reserved Virtual Machine Instances, deallocating virtual machines in off hours, right-sizing underutilized virtual machines, deleting unused virtual machines, and migrating to PaaS or SaaS are all examples of cost-saving solutions.</span></span>
+      isCorrect: true
+    - content: <span data-ttu-id="8247c-113">Ajustar el tamaño de las máquinas virtuales infrautilizadas.</span><span class="sxs-lookup"><span data-stu-id="8247c-113">Right-size underutilized virtual machines.</span></span>
+      incorrectExplanation: <span data-ttu-id="8247c-114">Con Azure Reserved Virtual Machine Instances, desasignar las máquinas virtuales fuera del horario laboral, ajustar el tamaño de máquinas virtuales infrautilizadas, eliminar las máquinas virtuales sin usar y migrar a PaaS o SaaS son ejemplos de soluciones de ahorro de costos.</span><span class="sxs-lookup"><span data-stu-id="8247c-114">Using Azure Reserved Virtual Machine Instances, deallocating virtual machines in off hours, right-sizing underutilized virtual machines, deleting unused virtual machines, and migrating to PaaS or SaaS are all examples of cost-saving solutions.</span></span>
+      isCorrect: false
+  - content: <span data-ttu-id="8247c-115">Azure Architecture Center es ________:</span><span class="sxs-lookup"><span data-stu-id="8247c-115">The Azure Architecture Center is ________:</span></span>
+    choices:
+    - content: <span data-ttu-id="8247c-116">Un lugar ideal para obtener ideas con las que transformar su aplicación, así como procedimientos recomendados en una amplia gama de arquitecturas y servicios de Azure.</span><span class="sxs-lookup"><span data-stu-id="8247c-116">A great place to get ideas for transforming your application, as well as best practices across a wide array of architectures and Azure services.</span></span>
+      correctExplanation: <span data-ttu-id="8247c-117">Azure Architecture Center sugerirá maneras de mejorar la aplicación y ahorrar dinero.</span><span class="sxs-lookup"><span data-stu-id="8247c-117">The Azure Architecture Center will provide suggestions about ways to improve your app and save money.</span></span>
+      isCorrect: true
+    - content: <span data-ttu-id="8247c-118">Un edificio en el campus de Microsoft Seattle en el que puede hablar de infraestructura.</span><span class="sxs-lookup"><span data-stu-id="8247c-118">A building on the Microsoft Seattle campus where you can talk about infrastructure.</span></span>
+      incorrectExplanation: <span data-ttu-id="8247c-119">Azure Architecture Center es un producto de software integrado en Azure que se proporciona sugerencias para mejorar la aplicación.</span><span class="sxs-lookup"><span data-stu-id="8247c-119">The Azure Architecture Center is a software product built into Azure that provides suggestions to improve your app.</span></span>
+      isCorrect: false
+    - content: <span data-ttu-id="8247c-120">Un museo basado en la nube dedicado a Frank Lloyd Wright.</span><span class="sxs-lookup"><span data-stu-id="8247c-120">A cloud-based museum to Frank Lloyd Wright.</span></span>
+      incorrectExplanation: <span data-ttu-id="8247c-121">Azure Architecture Center es un producto de software integrado en Azure que se proporciona sugerencias para mejorar la aplicación.</span><span class="sxs-lookup"><span data-stu-id="8247c-121">The Azure Architecture Center is a software product built into Azure that provides suggestions to improve your app.</span></span>
+      isCorrect: false
