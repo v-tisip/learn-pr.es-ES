@@ -1,1 +1,0 @@
-Para ayudarle a recordar lo que ha aprendido, lea los dos escenarios que implican al equipo de astronomía y responda a las preguntas asociadas.
