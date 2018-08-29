@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn.predict-costs-and-optimize-spending
+metadata:
+  title: Predicción de los costos y optimización del gasto
+  description: En este módulo, se tratará cómo predecir, analizar y controlar los costos en Azure.
+  ms.openlocfilehash: 0f1ca5015bbe652a423df79daccf0512cb2f6977
+  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "42615513"
+title: Predicción de los costos y optimización del gasto
+summary: Los costos son uno de los aspectos más importantes de la nube y pueden tener un impacto considerable en la empresa. Azure dispone de diversas herramientas para ayudarle a que entienda mejor el gasto en la nube y algunos procedimientos recomendados que puede aprovechar para ahorrar dinero.
+abstract: >
+  * Use la calculadora de precios de Azure para calcular los costos.
+
+  * Identifique las herramientas que puede usar para predecir y optimizar los costos en Azure.
+
+  * Identifique los procedimientos recomendados para reducir los costos de infraestructura.
+
+  * Identifique los procedimientos recomendados para reducir los costos de licencia.
+cardDescription: Esta es la descripción de la tarjeta del módulo de ejemplo (se mostrará en el distintivo de logro).
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- solutions-architect
+- administrator
+achievement: learn.placeholder.badge
+products:
+- Azure
+units:
+- learn.predict-costs-and-optimize-spending.1-introduction
+- learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator
+- learn.predict-costs-and-optimize-spending.3-predict-and-optimize-with-cost-management-and-advisor
+- learn.predict-costs-and-optimize-spending.4-save-on-infrastructure-costs
+- learn.predict-costs-and-optimize-spending.5-save-on-licensing-costs
+- learn.predict-costs-and-optimize-spending.6-summary
