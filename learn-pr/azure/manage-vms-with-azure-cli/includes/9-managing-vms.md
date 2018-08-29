@@ -11,7 +11,7 @@ az vm stop -n SampleVM -g ExerciseResources
 Podemos comprobar que se ha detenido intentando hacer ping a la dirección IP pública, mediante `ssh`, o a través del comando `vm get-instance-view`. Este enfoque final devuelve los mismos datos básicos que `vm show` pero incluye detalles acerca de la propia instancia. Pruebe a escribir el siguiente comando en Azure Cloud Shell para ver el estado de ejecución actual de la máquina virtual:
 
 ```azurecli
-az vm get-instance-view -n SampleVM -g ExerciseResources --query "instanceView.statuses[?starts_with(code, 'PowerState/') == `true`].displayStatus" -o tsv
+az vm get-instance-view -n SampleVM -g ExerciseResources --query "instanceView.statuses[?starts_with(code, 'PowerState/')].displayStatus" -o tsv
 ```
 
 Este comando debe devolver `VM stopped` como resultado.
