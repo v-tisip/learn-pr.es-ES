@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-vms-with-azure-cli-data.9-managing-vms
+title: Inicio y detención de una máquina virtual con la CLI de Azure
+metadata:
+  title: Inicio y detención de una máquina virtual con la CLI de Azure
+  description: Obtenga información sobre cómo usar la CLI de Azure para iniciar y detener una máquina virtual
+  ms.openlocfilehash: dcceabd66f496850d3f6b35db5ef12774908027a
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40445734"
+interactive: bash
+durationInMinutes: 4
+content: '[!include[](includes/9-managing-vms.md)]'

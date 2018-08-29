@@ -1,0 +1,12 @@
+Ya está listo para empezar a implementar el servicio de temperatura. En la unidad anterior, determinó que una solución sin servidor sería la mejor opción para sus necesidades. Para implementar una función de Azure sin servidor, debe tener un lugar al que llamará "casa". Esta "casa" es una aplicación de función de Azure.
+
+## <a name="azure-function-app-overview"></a>Información general sobre las aplicaciones de función de Azure
+Las funciones de Azure se hospedan en un contenedor que se denomina aplicación de función. Puede definir aplicaciones de función en Azure para agrupar y estructurar de manera lógica las funciones. Las aplicaciones de función son un recurso de proceso de Azure. En nuestro ejemplo del ascensor, crearía una aplicación de función para hospedar el servicio de temperatura del engranaje impulsor del ascensor. Es necesario tomar algunas decisiones con el fin de crear la aplicación de función: deberá elegir un plan de servicio y seleccionar una cuenta de almacenamiento compatible.
+
+### <a name="choosing-a-service-plan"></a>Selección de un plan de servicio
+Las aplicaciones de función pueden usar uno de dos tipos de planes de servicio. El primer plan de servicio es el plan de servicio de consumo. Este es el plan que elige cuando se usa la plataforma de aplicaciones sin servidor de Azure. El plan de servicio de consumo proporciona escalado automático y factura cuando se ejecutan las funciones. El plan de consumo viene con un período de tiempo de espera configurable para la ejecución de una función. De manera predeterminada es de 5 minutos, pero se puede configurar para tener un tiempo de espera de hasta 10 minutos. 
+
+El segundo plan se denomina plan de Azure App Service. Este plan permite que la función se ejecute de manera continua en una máquina virtual. Elija esta opción si las funciones se usan de manera continua o se requiere más potencia de procesamiento o tiempo de ejecución que lo que puede proporcionar el plan de consumo. 
+
+### <a name="storage-account-requirements"></a>Requisitos de la cuenta de almacenamiento
+Cuando se crea una aplicación de función, habitualmente se vincula a una cuenta de almacenamiento que admite Azure Blob, Queue y Table Storage. La aplicación de función usa esta cuenta de almacenamiento para las operaciones internas, como el registro de las ejecuciones de función y la administración de los desencadenadores de ejecución. También es donde se almacenan los archivos de configuración y el código de la función de Azure en el plan de servicio de consumo. 

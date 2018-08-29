@@ -1,0 +1,50 @@
+### YamlMime:ModuleUnit
+uid: learn.align-requirements-in-azure.3-public-private-hybrid-quiz
+title: 'Comprobación de conocimientos: Descripción de soluciones de Azure para la nube pública, privada e híbrida'
+metadata:
+  title: 'Comprobación de conocimientos: Descripción de soluciones de Azure para la nube pública, privada e híbrida'
+  description: 'Comprobación de conocimientos: Descripción de soluciones de Azure para la nube pública, privada e híbrida'
+  ms.openlocfilehash: 2ae34e628e7e20c933856b09a9a813e40788adbc
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40447035"
+durationInMinutes: 10
+content: 'Comprobación de conocimientos: Descripción de soluciones de Azure para la nube pública, privada e híbrida'
+quiz:
+  title: Soluciones de Azure para la nube pública, privada e híbrida
+  questions:
+  - content: Teniendo en cuenta el siguiente escenario, ¿cuál es el mejor modelo de implementación de nube? Se necesita una base de datos de SQL Server para un proyecto a corto plazo. El departamento de TI no tiene hardware disponible que cumpla los requisitos de rendimiento o los recursos para implementarlo. El proyecto se inicia la próxima semana. Una vez que el proyecto concluye, la base de datos ya no es necesaria.
+    choices:
+    - content: Nube pública
+      correctExplanation: Debido a la urgencia y al ciclo de vida de la base de datos SQL. La nube pública es la mejor opción.
+      isCorrect: true
+    - content: Nube privada
+      incorrectExplanation: El departamento de TI no tiene los recursos necesarios para implementar un servidor SQL Server.
+      isCorrect: false
+    - content: Nube híbrida
+      incorrectExplanation: La nube híbrida podría ser una opción. Sin embargo, no hay ningún requisito que indique que debe haber una conexión entre las nubes públicas y privadas.
+      isCorrect: false
+  - content: Teniendo en cuenta el siguiente escenario, ¿cuál es el mejor modelo de implementación de nube? Se crean varias máquinas virtuales en la nube. Las máquinas virtuales están conectados en red mediante una red virtual. Las máquinas virtuales tienen acceso a archivos de imagen de rayos x en el almacenamiento en la nube. Una máquina virtual es un servidor web que hospeda un sitio web expuesto a Internet para que clientes accedan a sus registros. Hay una VPN que conecta la solución a su centro de datos local para que la información del cliente se muestre con los archivos de imagen.
+    choices:
+    - content: Nube pública
+      incorrectExplanation: Debido a la conexión con el centro de datos local, no se trata de una implementación de nube pública.
+      isCorrect: false
+    - content: Nube privada
+      incorrectExplanation: Debido a las máquinas virtuales y la red en la nube pública, no se trata de una implementación de nube privada.
+      isCorrect: false
+    - content: Nube híbrida
+      correctExplanation: Este escenario usa tanto la nube pública como la nube privada con una conexión entre ambas. Por lo tanto, se trata de una implementación de nube híbrida.
+      isCorrect: true
+  - content: Teniendo en cuenta el siguiente escenario, ¿cuál es el modelo de implementación de nube? Tiene dos centros de datos en su organización. Un centro de datos tiene una base de datos que solo reside en uno de los centros de datos debido a requisitos reguladores. Desea acceder a la base de datos desde el otro centro de datos. Crea una VPN usando un proveedor en la nube para conectar los dos centros de datos.
+    choices:
+    - content: Nube pública
+      incorrectExplanation: Debido a los dos centros de datos privados, no se trata de una implementación de nube pública.
+      isCorrect: false
+    - content: Nube privada
+      correctExplanation: La VPN es un recurso de nube pública. Sin embargo, como la VPN es una conexión privada entre dos centros de datos privados, se trata de una implementación de nube privada.
+      isCorrect: true
+    - content: Nube híbrida
+      correctExplanation: La VPN es un recurso de nube pública y los centros de datos son privados. Sin embargo, como la VPN solo conecta dos centros de datos privados (no en la nube pública), no se trata de una implementación de nube híbrida.
+      isCorrect: false

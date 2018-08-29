@@ -1,0 +1,23 @@
+### YamlMime:ModuleUnit
+uid: learn.choose-messaging-model.3-knowledge-check
+title: 'Comprobación de conocimientos: ¿por qué usar mensajes de eventos?'
+metadata:
+  title: 'Comprobación de conocimientos: ¿por qué usar mensajes de eventos?'
+  description: 'Comprobación de conocimientos: ¿por qué usar mensajes de eventos?'
+  ms.openlocfilehash: 5ab19c8075ef9037d4258ecd4d0c1da0348fff08
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40445270"
+durationInMinutes: 3
+quiz:
+  title: Modelos de mensajes
+  questions:
+  - content: 'En la aplicación distribuida tiene un servicio web que autentica a los usuarios. Cuando un usuario inicia sesión, el servicio web debe comunicarse con una aplicación de escritorio que se ejecuta en los equipos de todos los usuarios para mostrar el estado de ese usuario como "En línea". True o false: este es un ejemplo de un mensaje en una aplicación distribuida.'
+    choices:
+    - content: "True"
+      incorrectExplanation: Este es un ejemplo de un evento en una aplicación distribuida. La comunicación se enruta a todos los suscriptores y el publicador no tiene conocimientos ni preferencias sobre cómo un suscriptor controla la comunicación, ni siquiera sabe cuántos suscriptores hay, si los hay.
+      isCorrect: false
+    - content: "False"
+      isCorrect: true

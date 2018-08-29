@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn.create-serverless-logic-with-functions.3-create-an-azure-functions-app-in-the-azure-portal
+title: Creación de una aplicación de función de Azure en Azure Portal
+metadata:
+  title: Creación de una aplicación de función de Azure en Azure Portal
+  description: Creación de una aplicación de función de Azure en Azure Portal
+  ms.openlocfilehash: d6823f91a4d17310058a68753d28c8175652a9ca
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40449016"
+durationInMinutes: 5
+content: '[!include[](includes/3-create-an-azure-functions-app-in-the-azure-portal.md)]'

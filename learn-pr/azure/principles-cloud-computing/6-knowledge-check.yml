@@ -1,0 +1,56 @@
+### YamlMime:ModuleUnit
+uid: principles-cloud-computing.6-knowledge-check
+metadata:
+  title: Compruebe sus conocimientos
+  description: Compruebe sus conocimientos
+  displayType: one-column
+  ms.openlocfilehash: d578a28cd23b3be60038cabb5fb899c0344219ad
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40443676"
+title: Compruebe sus conocimientos
+durationInMinutes: 10
+content: El contenido es obligatorio
+quiz:
+  title: Comprobación de conocimientos
+  questions:
+  - content: Verdadero o falso, cuando se usa un proveedor de nube pública como Azure, ¿es necesario pagar el costo íntegro por adelantado del hardware físico?
+    choices:
+    - content: "True"
+      incorrectExplanation: Azure admite un modelo de precios de pago por uso. Esto significa que se alquila el hardware y que solo se paga por los recursos utilizados.
+      isCorrect: false
+    - content: "False"
+      correctExplanation: Azure admite un modelo de precios de pago por uso. Esto significa que se alquila el hardware y que solo se paga por los recursos utilizados.
+      isCorrect: true
+  - content: Supongamos que su sitio web tenía un pico de tráfico durante la noche. Con un proveedor de nube pública como Azure, es posible que su sitio web no experimente ningún tiempo de inactividad porque sus recursos se escalan automáticamente.
+    choices:
+    - content: "True"
+      correctExplanation: La informática en la nube se considera elástica. Esto significa que los recursos se pueden asignar o desasignar automáticamente en función de la demanda.
+      isCorrect: true
+    - content: "False"
+      incorrectExplanation: La informática en la nube se considera elástica. Esto significa que los recursos se pueden asignar o desasignar automáticamente en función de la demanda.
+      isCorrect: false
+  - content: Supongamos que desea cambiar a la nube y quiere una escalabilidad alta, hardware alquilado y que la seguridad no sea una gran preocupación. ¿Qué modelo de implementación en la nube es mejor?
+    choices:
+    - content: Nube pública
+      correctExplanation: La titularidad y el control de una nube pública es competencia de un proveedor de nube externo, lo que ofrece las ventajas de escalabilidad y hardware alquilado. Como el hardware no es de su propiedad, no puede controlar quién tiene acceso físico a él.
+      isCorrect: true
+    - content: Nube privada
+      incorrectExplanation: La razón principal para elegir una nube privada es la seguridad. Con una nube privada, la titularidad y el control suelen administrarse a nivel local.
+      isCorrect: false
+    - content: Nube híbrida
+      incorrectExplanation: Una nube híbrida es una combinación de nube pública y privada. Como la seguridad no es una preocupación para usted, no es necesario mover nada a la nube privada.
+      isCorrect: false
+  - content: Supongamos que va a compilar una aplicación y que quiere que esté a disposición de los usuarios lo antes posible. No desea preocuparse por la administración del hardware o software subyacente, sino solo centrarse en la compilación, las pruebas y la implementación. ¿Qué tipo de servicio en la nube es mejor en su caso?
+    choices:
+    - content: Infraestructura como servicio
+      incorrectExplanation: Con la infraestructura como servicio, usted es responsable de administrar el hardware y software. Esto incluye tareas como la realización de actualizaciones del sistema en las máquinas virtuales.
+      isCorrect: false
+    - content: Plataforma como servicio
+      correctExplanation: El objetivo de la plataforma como servicio es ayudar a crear una aplicación lo más rápido posible. Las tareas de administración de TI se realizan de forma automática, por lo que puede centrarse en escribir código.
+      isCorrect: true
+    - content: Software como servicio
+      incorrectExplanation: Con el software como servicio, use una aplicación existente mediante un explorador web o una aplicación de software.
+      isCorrect: false

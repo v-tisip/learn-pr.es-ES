@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.intro-to-data-in-azure.5-knowledge-check
+metadata:
+  title: Comprobación de conocimientos
+  description: Comprobación de conocimientos.
+  displayType: one-column
+  ms.openlocfilehash: 8e63c9e7886d767824571f78eda178b9bdfd65f3
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40445545"
+title: Comprobación de conocimientos
+durationInMinutes: 11
+content: Comprobación de conocimientos
+quiz:
+  title: Comprobación de conocimientos
+  questions:
+  - content: El portal de aprendizaje en línea debe mantener un registro de la dirección física de cada usuario y su dirección de correo electrónico. ¿Qué características de Azure le permiten también administrar esta información?
+    choices:
+    - content: Archivo de Azure
+      isCorrect: false
+      incorrectExplanation: Archivo de Azure es ideal para almacenar versiones antiguas de los datos para que pueda recuperarlos cuando y como sea necesario para auditorías u otras actividades poco frecuentes.
+    - content: Azure SQL
+      isCorrect: true
+      correctExplanation: Correcto. SQL Azure ayuda a almacenar datos relacionales y recupera los datos rápidamente con consultas eficaces.
+    - content: Archivos de Azure
+      isCorrect: false
+      incorrectExplanation: Azure Files se usa con recursos compartidos de archivos en la nube. Se puede montar simultáneamente en implementaciones de Windows, Linux y macOS en la nube o locales.
+  - content: Los archivos de simulación que se utilizan en los portales de aprendizaje de ventas pueden alcanzar un tamaño de archivo muy grande. ¿Cómo admitirá Azure estos archivos?
+    choices:
+    - content: Azure Blob Storage puede admitir archivos de hasta 8 TB de tamaño
+      isCorrect: true
+      correctExplanation: Correcto. Azure Blob Storage ofrece la posibilidad de almacenar y trasmitir en streaming archivos grandes de vídeo o audio directamente al explorador desde cualquier lugar del mundo.
+    - content: Azure Files permite almacenar y transmitir archivos grandes
+      isCorrect: false
+      incorrectExplanation: Azure Files se usa con recursos compartidos de archivos en la nube. Se puede montar simultáneamente en implementaciones de Windows, Linux y macOS en la nube o locales.
+    - content: Azure no permite el almacenamiento ni el streaming de archivos grandes
+      isCorrect: false
+      incorrectExplanation: Pero sí ofrece la posibilidad de almacenar y trasmitir en streaming archivos grandes de vídeo o audio directamente al explorador desde cualquier lugar del mundo.
+  - content: ¿Cómo mantiene Azure la durabilidad y confiabilidad de los datos?
+    choices:
+    - content: Mediante funcionalidades de replicación de Azure.
+      isCorrect: true
+      correctExplanation: Correcto. Azure ofrece funcionalidades de replicación para proteger los datos frente a desastres naturales y admite el cifrado para proteger los datos frente a ataques malintencionados.
+    - content: Se necesita soporte técnico premium adicional para cifrar y descifrar los datos; la confiabilidad se admite a través de características de copia de seguridad de terceros
+      isCorrect: false
+      incorrectExplanation: No se requiere ningún soporte técnico adicional; Azure tiene las funcionalidades para proteger los datos contra amenazas y riesgos imprevistos.
+    - content: Azure no tiene características integradas de redundancia y cifrado.
+      isCorrect: false
+      incorrectExplanation: Incluye funcionalidades integradas para proteger los datos contra riesgos y amenazas.

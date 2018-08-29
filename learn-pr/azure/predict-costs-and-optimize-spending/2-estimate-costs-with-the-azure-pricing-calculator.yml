@@ -1,0 +1,34 @@
+### YamlMime:ModuleUnit
+uid: learn.predict-costs-and-optimize-spending.2-estimate-costs-with-the-azure-pricing-calculator
+title: Estimación de los costos con la calculadora de precios de Azure
+metadata:
+  title: Estimación de los costos con la calculadora de precios de Azure
+  description: En esta unidad, analizaremos cómo calcular los costos con la calculadora de precios de Azure.
+  ms.openlocfilehash: 8667c62411c9155d1bb116dd36da0014f038e15b
+  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "42614522"
+durationInMinutes: 15
+content: >
+  [!include[](includes/2-estimate-costs-with-the-azure-pricing-calculator.md)]
+quiz:
+  title: Estimación de los costos con la calculadora de precios de Azure
+  questions:
+  - content: ¿En qué pestaña de la calculadora de precios de Azure formulará su estimación?
+    choices:
+    - content: Presupuesto
+      isCorrect: false
+      incorrectExplanation: Esta pestaña tiene todas las estimaciones que guardó anteriormente.
+    - content: Productos
+      isCorrect: true
+      correctExplanation: En esta pestaña se muestran todos los servicios de Azure y es donde agregará o quitará servicios para formular la estimación.
+  - content: Puede compartir su estimación con una hoja de cálculo de Excel o una dirección URL.
+    choices:
+    - content: "True"
+      isCorrect: true
+      correctExplanation: Al hacer clic en <b>Exportar</b> en la parte inferior de la estimación, exportará una hoja de cálculo de Excel que puede compartir, o puede hacer clic en <b>Compartir</b> para obtener un vínculo de la dirección URL que puede compartir con su equipo.
+    - content: "False"
+      isCorrect: false
+      incorrectExplanation: Al hacer clic en <b>Exportar</b> en la parte inferior de la estimación, exportará una hoja de cálculo de Excel que puede compartir, o puede hacer clic en <b>Compartir</b> para obtener un vínculo de la dirección URL que puede compartir con su equipo.

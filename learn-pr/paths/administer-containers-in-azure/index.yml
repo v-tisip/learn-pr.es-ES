@@ -1,0 +1,25 @@
+### YamlMime:LearningPath
+uid: learn.administer-containers-in-azure
+title: Administración de contenedores en Azure
+summary: Azure Container Instances es la manera más rápida y sencilla de ejecutar contenedores en Azure. Esta ruta de aprendizaje le enseñará a crear y administrar los contenedores y cómo se puede usar ACI para proporcionar escala elástica para Kubernetes.
+cardDescription: Azure Container Instances es la manera más rápida y sencilla de ejecutar contenedores en Azure. Esta ruta de aprendizaje le enseñará a crear y administrar los contenedores y cómo se puede usar ACI para proporcionar escala elástica para Kubernetes.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- developer
+products:
+- Azure
+prerequisites: None
+metadata:
+  title: Administración de contenedores en Azure
+  description: Azure Container Instances es la manera más rápida y sencilla de ejecutar contenedores en Azure. Esta ruta de aprendizaje le enseñará a crear y administrar los contenedores y cómo se puede usar ACI para proporcionar escala elástica para Kubernetes.
+  ms.openlocfilehash: 753fe61e57393a51f6a7e0031ce251390c6ceef7
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40448291"
+modules:
+- learn.sample-module-cloudshell
+achievement: learn.administer-containers-in-azure.trophy

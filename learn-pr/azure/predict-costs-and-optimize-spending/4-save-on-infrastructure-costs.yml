@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit
+uid: learn.predict-costs-and-optimize-spending.4-save-on-infrastructure-costs
+title: Ahorro en costos de infraestructura
+metadata:
+  title: Ahorro en costos de infraestructura
+  description: En esta unidad, analizaremos cómo ahorrar en costos de infraestructura
+  ms.openlocfilehash: ea6ad618f98c79c33bf6c0c04b2cd71fdb00fa21
+  ms.sourcegitcommit: d40bff88f60d5ddb3d875f788cafdd0c40069f23
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "42614828"
+durationInMinutes: 10
+content: >
+  [!include[](includes/4-save-on-infrastructure-costs.md)]
+quiz:
+  title: Ahorro en costos de infraestructura
+  questions:
+  - content: ¿Cuál de estas <b>no</b> es una solución de ahorro de costos?
+    choices:
+    - content: Desasignar máquinas virtuales en las horas de inactividad.
+      incorrectExplanation: Con Azure Reserved Virtual Machine Instances, desasignar las máquinas virtuales fuera del horario laboral, ajustar el tamaño de máquinas virtuales infrautilizadas, eliminar las máquinas virtuales sin usar y migrar a PaaS o SaaS son ejemplos de soluciones de ahorro de costos.
+      isCorrect: false
+    - content: Usar Azure Reserved Virtual Machine Instances.
+      incorrectExplanation: Con Azure Reserved Virtual Machine Instances, desasignar las máquinas virtuales fuera del horario laboral, ajustar el tamaño de máquinas virtuales infrautilizadas, eliminar las máquinas virtuales sin usar y migrar a PaaS o SaaS son ejemplos de soluciones de ahorro de costos.
+      isCorrect: false
+    - content: Equilibrar la carga de las máquinas virtuales para los mensajes entrantes.
+      correctExplanation: El equilibrio de carga se usa para optimizar el rendimiento. Con Azure Reserved Virtual Machine Instances, desasignar las máquinas virtuales fuera del horario laboral, ajustar el tamaño de máquinas virtuales infrautilizadas, eliminar las máquinas virtuales sin usar y migrar a PaaS o SaaS son ejemplos de soluciones de ahorro de costos.
+      isCorrect: true
+    - content: Ajustar el tamaño de las máquinas virtuales infrautilizadas.
+      incorrectExplanation: Con Azure Reserved Virtual Machine Instances, desasignar las máquinas virtuales fuera del horario laboral, ajustar el tamaño de máquinas virtuales infrautilizadas, eliminar las máquinas virtuales sin usar y migrar a PaaS o SaaS son ejemplos de soluciones de ahorro de costos.
+      isCorrect: false
+  - content: 'Azure Architecture Center es ________:'
+    choices:
+    - content: Un lugar ideal para obtener ideas con las que transformar su aplicación, así como procedimientos recomendados en una amplia gama de arquitecturas y servicios de Azure.
+      correctExplanation: Azure Architecture Center sugerirá maneras de mejorar la aplicación y ahorrar dinero.
+      isCorrect: true
+    - content: Un edificio en el campus de Microsoft Seattle en el que puede hablar de infraestructura.
+      incorrectExplanation: Azure Architecture Center es un producto de software integrado en Azure que se proporciona sugerencias para mejorar la aplicación.
+      isCorrect: false
+    - content: Un museo basado en la nube dedicado a Frank Lloyd Wright.
+      incorrectExplanation: Azure Architecture Center es un producto de software integrado en Azure que se proporciona sugerencias para mejorar la aplicación.
+      isCorrect: false

@@ -1,0 +1,25 @@
+### YamlMime:LearningPath
+uid: learn.deploy-a-website-to-azure-with-managed-hosting
+title: Implementación de un sitio web en Azure con hospedaje administrado
+summary: Las aplicaciones web de Azure le permiten publicar y administrar su sitio web fácilmente sin tener que trabajar con los servidores subyacentes, el almacenamiento o los recursos de red. En su lugar, puede centrarse en las características del sitio web y confiar en la sólida plataforma de Azure para proporcionar acceso seguro a su sitio.
+cardDescription: Las aplicaciones web de Azure le permiten publicar y administrar su sitio web fácilmente sin tener que trabajar con los servidores subyacentes, el almacenamiento o los recursos de red. En su lugar, puede centrarse en las características del sitio web y confiar en la sólida plataforma de Azure para proporcionar acceso seguro a su sitio.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- developer
+products:
+- Azure
+prerequisites: None
+metadata:
+  title: Implementación de un sitio web en Azure con hospedaje administrado
+  description: Las aplicaciones web de Azure le permiten publicar y administrar su sitio web fácilmente sin tener que trabajar con los servidores subyacentes, el almacenamiento o los recursos de red. En su lugar, puede centrarse en las características del sitio web y confiar en la sólida plataforma de Azure para proporcionar acceso seguro a su sitio.
+  ms.openlocfilehash: a9bed41e8a9bbdfe7720c34bdaac9e5be8e136c6
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40445172"
+modules:
+- learn.sample-module-cloudshell
+achievement: learn.deploy-a-website-to-azure-with-managed-hosting.trophy

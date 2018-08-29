@@ -1,0 +1,61 @@
+### YamlMime:ModuleUnit
+uid: learn.align-requirements-in-azure.5-iaas-paas-saas-quiz
+title: 'Comprobación de conocimientos: IaaS, PaaS y SaaS'
+metadata:
+  title: 'Comprobación de conocimientos: IaaS, PaaS y SaaS'
+  description: 'Comprobación de conocimientos: IaaS, PaaS y SaaS'
+  ms.openlocfilehash: cddff08fe098ce01a3216f43529fc6c754bbb922
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40448158"
+durationInMinutes: 10
+content: 'Comprobación de conocimientos: IaaS, PaaS y SaaS'
+quiz:
+  title: 'Comprobación de conocimientos: IaaS, PaaS y SaaS'
+  questions:
+  - content: Teniendo en cuenta el siguiente escenario, ¿cuál es el mejor modelo de servicio en la nube para usar? Se necesita una base de datos de SQL Server para un proyecto a corto plazo. El departamento de TI no tiene hardware disponible que cumpla los requisitos de rendimiento o los recursos para implementarlo. El proyecto se inicia la próxima semana. Una vez que el proyecto concluye, la base de datos ya no es necesaria.
+    choices:
+    - content: IaaS
+      incorrectExplanation: Podría crear una máquina virtual e instalar SQL Server. Sin embargo, la base de datos se necesita rápidamente. Alguien tendría que instalar y mantener la base de datos SQL para el proyecto.
+      isCorrect: true
+    - content: PaaS
+      correctExplanation: Debido a la necesidad inmediata, a que no hay hardware disponible y a la corta duración, PaaS es la mejor opción. Por ejemplo, podría utilizar Azure SQL Database para la solución.
+      isCorrect: true
+    - content: SaaS
+      incorrectExplanation: El requisito es una base de datos SQL que se entrega como un servicio. No se aplicaría SaaS para este escenario.
+      isCorrect: false
+  - content: Teniendo en cuenta el siguiente escenario, ¿cuál es el modelo de servicio en la nube? Se crean varias máquinas virtuales en la nube. Las máquinas virtuales están conectadas en red mediante una red virtual. Las máquinas virtuales tienen acceso a archivos de imagen de rayos x en el almacenamiento en la nube. Una máquina virtual es un servidor web que hospeda un sitio web expuesto a Internet para que clientes accedan a sus registros. Hay una VPN que conecta la solución a su centro de datos local para que la información del cliente se muestre con los archivos de imagen.
+    choices:
+    - content: IaaS
+      correctExplanation: Todos los recursos utilizados en este escenario se pueden implementar mediante IaaS.
+      isCorrect: true
+    - content: PaaS
+      incorrectExplanation: Solo una parte de la solución podría implementarse mediante PaaS.
+      isCorrect: false
+    - content: SaaS
+      incorrectExplanation: Puesto que se trata de una solución personalizada, suponemos que no hay una oferta de SaaS que ofrece esta funcionalidad.
+      isCorrect: false
+  - content: Teniendo en cuenta el siguiente escenario, ¿cuál es el mejor modelo de servicio en la nube? Se crea una pequeña empresa emergente. Tiene un grupo de empleados que necesiten colaborar. Necesitan correo electrónico, programación mediante calendario y un lugar donde almacenar los documentos. El equipo es técnico pero no tienen el tiempo o el hardware para implementar y administrar una solución.
+    choices:
+    - content: IaaS
+      incorrectExplanation: Aunque podría lograr la funcionalidad usando máquinas virtuales e instalando software de colaboración, esto podría tardar tiempo en instalarse y administrarse. El equipo no tiene tiempo para usar esta opción.
+      isCorrect: false
+    - content: PaaS
+      incorrectExplanation: El equipo no tiene tiempo para crear una solución PaaS para cumplir los requisitos.
+      isCorrect: false
+    - content: SaaS
+      correctExplanation: Una solución de SaaS como Office 365 sería una buena solución para los requisitos de colaboración.
+      isCorrect: true
+  - content: Teniendo en cuenta el siguiente escenario, ¿cuál es el modelo de servicio en la nube? Tiene dos centros de datos en su organización. Un centro de datos tiene una base de datos que solo reside en uno de los centros de datos debido a requisitos reguladores. Desea acceder a la base de datos desde el otro centro de datos. Crea una VPN usando un proveedor en la nube para conectar los dos centros de datos.
+    choices:
+    - content: IaaS
+      correctExplanation: Puede usar una VPN de IaaS para implementar esta solución.
+      isCorrect: true
+    - content: PaaS
+      incorrectExplanation: VPN es un recurso de la infraestructura. VPN no es una solución de PaaS.
+      isCorrect: false
+    - content: SaaS
+      incorrectExplanation: VPN es un recurso de la infraestructura. VPN no es una solución de SaaS.
+      isCorrect: false

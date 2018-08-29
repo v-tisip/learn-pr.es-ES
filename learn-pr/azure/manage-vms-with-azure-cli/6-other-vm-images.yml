@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-vms-with-azure-cli-data.6-other-vm-images
+title: Exploración de otras imágenes de máquina virtual
+metadata:
+  title: Exploración de otras imágenes de máquina virtual
+  description: Obtenga información sobre los otros tipos de imagen que puede usar para crear máquinas virtuales en Azure
+  ms.openlocfilehash: ee767c2817dbec8f9ead82b28768eaf0b6b28666
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40447346"
+interactive: bash
+durationInMinutes: 3
+content: '[!include[](includes/6-other-vm-images.md)]'

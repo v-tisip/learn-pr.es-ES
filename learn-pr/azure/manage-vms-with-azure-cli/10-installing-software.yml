@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.manage-vms-with-azure-cli-data.10-installing-software
+title: Instalación de software en la máquina virtual
+metadata:
+  title: Instalación de software en la máquina virtual
+  description: Instalación de software para ejecutar un servidor web en la máquina virtual Linux
+  ms.openlocfilehash: f3668d6b98df9ed15577bbcee26058f269b1a31a
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40442684"
+interactive: bash
+durationInMinutes: 5
+content: '[!include[](includes/10-installing-software.md)]'

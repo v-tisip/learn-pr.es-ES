@@ -1,0 +1,25 @@
+### YamlMime:LearningPath
+uid: learn.architect-great-solutions-in-azure
+title: Diseño de soluciones excelentes con Azure
+summary: Obtenga información sobre cómo diseñar y compilar soluciones seguras, escalables y de alto rendimiento en Azure al examinar los principios básicos que se encuentran en cada arquitectura correcta.
+cardDescription: Obtenga información sobre cómo diseñar y compilar soluciones seguras, escalables y de alto rendimiento en Azure al examinar los principios básicos que se encuentran en cada arquitectura correcta.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- solutions-architect
+products:
+- Azure
+prerequisites: None
+metadata:
+  title: Diseño de soluciones excelentes con Azure
+  description: Obtenga información sobre cómo diseñar y compilar soluciones seguras, escalables y de alto rendimiento en Azure al examinar los principios básicos que se encuentran en cada arquitectura correcta.
+  ms.openlocfilehash: 5f46bd87a3da8267bc0f494720e95a2b69578da4
+  ms.sourcegitcommit: 12b4711682dac42f742a944fd9baa0e9dd09cf35
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 08/22/2018
+  ms.locfileid: "40447212"
+modules:
+- learn.sample-module-cloudshell
+achievement: learn.architect-great-solutions-in-azure.trophy
