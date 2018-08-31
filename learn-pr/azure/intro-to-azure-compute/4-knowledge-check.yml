@@ -1,40 +1,40 @@
 ### YamlMime:ModuleUnit
 uid: learn.intro-to-compute.4-knowledge-check
-title: <span data-ttu-id="c3e7a-101">Comprobación de conocimientos</span><span class="sxs-lookup"><span data-stu-id="c3e7a-101">Knowledge check</span></span>
+title: <span data-ttu-id="b123c-101">Comprobación de conocimientos</span><span class="sxs-lookup"><span data-stu-id="b123c-101">Knowledge check</span></span>
 metadata:
-  title: <span data-ttu-id="c3e7a-102">Comprobación de conocimientos</span><span class="sxs-lookup"><span data-stu-id="c3e7a-102">Knowledge check</span></span>
-  description: <span data-ttu-id="c3e7a-103">Comprobación de conocimientos para el módulo “Introducción a Azure Compute”.</span><span class="sxs-lookup"><span data-stu-id="c3e7a-103">Knowledge check for the 'Introduction to Azure compute' module.</span></span>
-  ms.openlocfilehash: d7c3f166bab42dfd3ab34e11ce5f399e0375e6f7
-  ms.sourcegitcommit: 0e0cc41b7669e7149541f34f3f24ba0e864ed07d
+  title: <span data-ttu-id="b123c-102">Comprobación de conocimientos</span><span class="sxs-lookup"><span data-stu-id="b123c-102">Knowledge check</span></span>
+  description: <span data-ttu-id="b123c-103">Comprobación de conocimientos para el módulo “Introducción a Azure Compute”.</span><span class="sxs-lookup"><span data-stu-id="b123c-103">Knowledge check for the 'Introduction to Azure compute' module.</span></span>
+  ms.openlocfilehash: 45f6d679f668ab9a585aca93395796d49fe5a69e
+  ms.sourcegitcommit: bcd9fd78122da4fc1545c7923a5fc0cd0a8abe96
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 08/23/2018
-  ms.locfileid: "42702493"
-durationInMinutes: 7
+  ms.lasthandoff: 08/29/2018
+  ms.locfileid: "43152186"
+durationInMinutes: 2
 content: >
   [!include[](includes/4-knowledge-check.md)]
 quiz:
-  title: <span data-ttu-id="c3e7a-104">Introducción a la comprobación de conocimientos de Azure Compute</span><span class="sxs-lookup"><span data-stu-id="c3e7a-104">Introduction to Azure compute knowledge check</span></span>
+  title: <span data-ttu-id="b123c-104">Introducción a la comprobación de conocimientos de Azure Compute</span><span class="sxs-lookup"><span data-stu-id="b123c-104">Introduction to Azure compute knowledge check</span></span>
   questions:
-  - content: <span data-ttu-id="c3e7a-105">Imagine que su equipo de astronomía es pequeño y que, si bien los miembros del equipo son programadores y astrónomos de nivel superior, tan solo tienen conocimientos rudimentarios de la administración de servidores y web.</span><span class="sxs-lookup"><span data-stu-id="c3e7a-105">Imagine that your astronomy team is small and that, while the members of your team are top notch astronomers and computer programmers, they have only a rudimentary understanding of server and web administration.</span></span> <span data-ttu-id="c3e7a-106">¿Cuál de las siguientes opciones debería elegir?</span><span class="sxs-lookup"><span data-stu-id="c3e7a-106">Which of the following options should you choose?</span></span>
+  - content: <span data-ttu-id="b123c-105">Imagine que su equipo de astronomía es pequeño y que, si bien los miembros del equipo son programadores y astrónomos de nivel superior, tan solo tienen conocimientos rudimentarios de la administración de servidores y web.</span><span class="sxs-lookup"><span data-stu-id="b123c-105">Imagine that your astronomy team is small and that, while the members of your team are top notch astronomers and computer programmers, they have only a rudimentary understanding of server and web administration.</span></span> <span data-ttu-id="b123c-106">¿Cuál de las siguientes opciones debería elegir?</span><span class="sxs-lookup"><span data-stu-id="b123c-106">Which of the following options should you choose?</span></span>
     choices:
-    - content: <span data-ttu-id="c3e7a-107">Azure Kubernetes Service (AKS)</span><span class="sxs-lookup"><span data-stu-id="c3e7a-107">Azure Kubernetes Service (AKS)</span></span>
+    - content: <span data-ttu-id="b123c-107">Azure Kubernetes Service (AKS)</span><span class="sxs-lookup"><span data-stu-id="b123c-107">Azure Kubernetes Service (AKS)</span></span>
       isCorrect: false
-      incorrectExplanation: <span data-ttu-id="c3e7a-108">Kubernetes requiere conocimientos avanzados acerca de la orquestación de contenedores.</span><span class="sxs-lookup"><span data-stu-id="c3e7a-108">Kubernetes requires advanced knowledge about container orchestration.</span></span>
-    - content: <span data-ttu-id="c3e7a-109">Service Fabric</span><span class="sxs-lookup"><span data-stu-id="c3e7a-109">Service Fabric</span></span>
+      incorrectExplanation: <span data-ttu-id="b123c-108">Kubernetes requiere conocimientos avanzados acerca de la orquestación de contenedores.</span><span class="sxs-lookup"><span data-stu-id="b123c-108">Kubernetes requires advanced knowledge about container orchestration.</span></span>
+    - content: <span data-ttu-id="b123c-109">Service Fabric</span><span class="sxs-lookup"><span data-stu-id="b123c-109">Service Fabric</span></span>
       isCorrect: false
-      incorrectExplanation: <span data-ttu-id="c3e7a-110">El trabajo de los astrónomos no necesariamente debe distribuirse de forma global o generalizada.</span><span class="sxs-lookup"><span data-stu-id="c3e7a-110">The work of the astronomers does not need to be widely or globally distributed.</span></span>
-    - content: <span data-ttu-id="c3e7a-111">App Service</span><span class="sxs-lookup"><span data-stu-id="c3e7a-111">App Service</span></span>
+      incorrectExplanation: <span data-ttu-id="b123c-110">El trabajo de los astrónomos no necesariamente debe distribuirse de forma global o generalizada.</span><span class="sxs-lookup"><span data-stu-id="b123c-110">The work of the astronomers does not need to be widely or globally distributed.</span></span>
+    - content: <span data-ttu-id="b123c-111">App Service</span><span class="sxs-lookup"><span data-stu-id="b123c-111">App Service</span></span>
       isCorrect: true
-      correctExplanation: <span data-ttu-id="c3e7a-112">Dado que está completamente administrado y ajusta la escala de sus aplicaciones, el equipo puede centrarse en escribir su software especializado.</span><span class="sxs-lookup"><span data-stu-id="c3e7a-112">Because it is fully managed and scales their applications, the team can focus on writing their specialized software.</span></span>
-  - content: <span data-ttu-id="c3e7a-113">Imagine que su equipo de astronomía necesita determinados cálculos astronómicos que tardan horas, incluso días, en completarse.</span><span class="sxs-lookup"><span data-stu-id="c3e7a-113">Imagine that your astronomy team has come up against certain astronomical calculations that are taking hours and even days to complete.</span></span> <span data-ttu-id="c3e7a-114">La ejecución en paralelo no parece ser de mucha ayuda.</span><span class="sxs-lookup"><span data-stu-id="c3e7a-114">Parallel execution does not seem to help much.</span></span> <span data-ttu-id="c3e7a-115">¿Cuál de las siguientes opciones debería elegir?</span><span class="sxs-lookup"><span data-stu-id="c3e7a-115">Which of the following options should you choose?</span></span>
+      correctExplanation: <span data-ttu-id="b123c-112">Dado que está completamente administrado y ajusta la escala de sus aplicaciones, el equipo puede centrarse en escribir su software especializado.</span><span class="sxs-lookup"><span data-stu-id="b123c-112">Because it is fully managed and scales their applications, the team can focus on writing their specialized software.</span></span>
+  - content: <span data-ttu-id="b123c-113">Imagine que su equipo de astronomía necesita determinados cálculos astronómicos que tardan horas, incluso días, en completarse.</span><span class="sxs-lookup"><span data-stu-id="b123c-113">Imagine that your astronomy team has come up against certain astronomical calculations that are taking hours and even days to complete.</span></span> <span data-ttu-id="b123c-114">La ejecución en paralelo no parece ser de mucha ayuda.</span><span class="sxs-lookup"><span data-stu-id="b123c-114">Parallel execution does not seem to help much.</span></span> <span data-ttu-id="b123c-115">¿Cuál de las siguientes opciones debería elegir?</span><span class="sxs-lookup"><span data-stu-id="b123c-115">Which of the following options should you choose?</span></span>
     choices:
-    - content: <span data-ttu-id="c3e7a-116">Cloud Services</span><span class="sxs-lookup"><span data-stu-id="c3e7a-116">Cloud Services</span></span>
+    - content: <span data-ttu-id="b123c-116">Cloud Services</span><span class="sxs-lookup"><span data-stu-id="b123c-116">Cloud Services</span></span>
       isCorrect: false
-      incorrectExplanation: <span data-ttu-id="c3e7a-117">No todos los cálculos astronómicos se pueden ejecutar en paralelo, por lo que implementar máquinas virtuales adicionales solo puede mejorar el rendimiento de una forma marginal.</span><span class="sxs-lookup"><span data-stu-id="c3e7a-117">Not all of the astronomical calculations can be run in parallel so deploying additional VMs can only marginally improve performance.</span></span>
-    - content: <span data-ttu-id="c3e7a-118">Azure Batch</span><span class="sxs-lookup"><span data-stu-id="c3e7a-118">Azure Batch</span></span>
+      incorrectExplanation: <span data-ttu-id="b123c-117">No todos los cálculos astronómicos se pueden ejecutar en paralelo, por lo que implementar máquinas virtuales adicionales solo puede mejorar el rendimiento de una forma marginal.</span><span class="sxs-lookup"><span data-stu-id="b123c-117">Not all of the astronomical calculations can be run in parallel so deploying additional VMs can only marginally improve performance.</span></span>
+    - content: <span data-ttu-id="b123c-118">Azure Batch</span><span class="sxs-lookup"><span data-stu-id="b123c-118">Azure Batch</span></span>
       isCorrect: true
-      correctExplanation: <span data-ttu-id="c3e7a-119">Ciertos cálculos astronómicos requieren funcionalidades de supercomputadora.</span><span class="sxs-lookup"><span data-stu-id="c3e7a-119">Certain astronomical calculations require supercomputer capabilities.</span></span>
-    - content: <span data-ttu-id="c3e7a-120">Azure Container Instances</span><span class="sxs-lookup"><span data-stu-id="c3e7a-120">Container Instances</span></span>
+      correctExplanation: <span data-ttu-id="b123c-119">Ciertos cálculos astronómicos requieren funcionalidades de supercomputadora.</span><span class="sxs-lookup"><span data-stu-id="b123c-119">Certain astronomical calculations require supercomputer capabilities.</span></span>
+    - content: <span data-ttu-id="b123c-120">Azure Container Instances</span><span class="sxs-lookup"><span data-stu-id="b123c-120">Container Instances</span></span>
       isCorrect: false
-      incorrectExplanation: <span data-ttu-id="c3e7a-121">Es posible que no todos los cálculos astronómicos puedan ejecutarse en paralelo, por lo que implementar contenedores adicionales solo puede mejorar el rendimiento de una forma marginal.</span><span class="sxs-lookup"><span data-stu-id="c3e7a-121">It may be that not all of the astronomical calculations can be run in parallel so deploying additional containers can only marginally improve performance.</span></span>
+      incorrectExplanation: <span data-ttu-id="b123c-121">Es posible que no todos los cálculos astronómicos puedan ejecutarse en paralelo, por lo que implementar contenedores adicionales solo puede mejorar el rendimiento de una forma marginal.</span><span class="sxs-lookup"><span data-stu-id="b123c-121">It may be that not all of the astronomical calculations can be run in parallel so deploying additional containers can only marginally improve performance.</span></span>
