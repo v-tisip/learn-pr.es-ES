@@ -219,7 +219,7 @@ A continuación se muestra el código completo de esta página.
 
 Ejecute la aplicación para ver la nueva interfaz de usuario. Si quiere validar ahora los enlaces, puede hacerlo si agrega puntos de interrupción a las propiedades o al método `SendLocation`.
 
-![La interfaz de usuario de la nueva aplicación](../media/3-new-ui.png)
+![La interfaz de usuario de la nueva aplicación](../media-drafts/3-new-ui.png)
 
 ## <a name="summary"></a>Resumen
 

@@ -8,7 +8,7 @@ Todas las plataformas móviles tienen seguridad en torno a la información del u
 
 2. Vaya a la pestaña **Funcionalidades** y compruebe la funcionalidad *Ubicación*.
 
-    ![Pestaña de funcionalidades de UWP](../media/4-uwp-location-capability.png)
+    ![Pestaña de funcionalidades de UWP](../media-drafts/4-uwp-location-capability.png)
 
 > Si quiere admitir Android o iOS, los permisos deben configurarse de forma diferente. Esto se detalla en la [documentación de geolocalización de Xamarin.Essentials](https://docs.microsoft.com/xamarin/essentials/geolocation?tabs=android#getting-started).
 
@@ -49,7 +49,7 @@ async Task SendLocation()
 
 Ejecute la aplicación y haga clic en el botón **Enviar ubicación** para ver la ubicación en la interfaz de usuario.
 
-![La aplicación en ejecución muestra la ubicación del usuario](../media/4-running-app-showing-location.png)
+![La aplicación en ejecución muestra la ubicación del usuario](../media-drafts/4-running-app-showing-location.png)
 
 > Esta aplicación usa la última ubicación conocida. En una aplicación de calidad de producción, querrá obtener la ubicación actual precisa con un tiempo de espera y, si no se encuentra ninguna a tiempo, recurrir a la última conocida. Puede obtener más información sobre cómo hacerlo en la [documentación de geolocalización de Xamarin.Essentials](https://docs.microsoft.com/xamarin/essentials/geolocation?tabs=uwp#using-geolocation). Esta aplicación no tiene control de errores. En una aplicación de calidad de producción, debería controlar las excepciones que se produzcan, por ejemplo, si la ubicación no estaba disponible y se desencadenó una excepción.
 

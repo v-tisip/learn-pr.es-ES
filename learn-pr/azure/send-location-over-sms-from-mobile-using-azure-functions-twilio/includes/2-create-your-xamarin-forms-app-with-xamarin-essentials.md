@@ -14,7 +14,7 @@ La aplicación que está creando es una aplicación móvil multiplataforma que s
 
 5. Haga clic en **OK**.
 
-    ![Cuadro de diálogo Nueva solución](../media/2-new-solution-dialog.png)
+    ![Cuadro de diálogo Nueva solución](../media-drafts/2-new-solution-dialog.png)
 
 6. En el cuadro de diálogo **Nueva aplicación multiplataforma**, seleccione la plantilla *Aplicación en blanco*.
 
@@ -26,7 +26,7 @@ La aplicación que está creando es una aplicación móvil multiplataforma que s
 
 9. Haga clic en **OK**.
 
-    ![Cuadro de diálogo Configure New Solution (Configurar nueva solución)](../media/2-configure-solution-dialog.png)
+    ![Cuadro de diálogo Configure New Solution (Configurar nueva solución)](../media-drafts/2-configure-solution-dialog.png)
 
 Visual Studio creará dos proyectos para usted: una aplicación de UWP llamada `ImHere.UWP` y una biblioteca .NET Standard, `ImHere`. Las aplicaciones Xamarin.Forms constan de dos partes: uno o varios proyectos de aplicación específicos de la plataforma y una biblioteca .NET Standard (o varias). Los proyectos de aplicación específicos de la plataforma contienen el código específico de la plataforma necesario para ejecutar una aplicación en la plataforma correspondiente. A continuación, estos proyectos inician una aplicación Xamarin.Forms que se define en una biblioteca .NET Standard multiplataforma. Usted crea su aplicación en código multiplataforma y, en tiempo de ejecución, cualquier interfaz de usuario que cree se traducirá en los componentes de interfaz de usuario específicos de la plataforma correspondiente.
 
@@ -44,7 +44,7 @@ Las plataformas UWP, Android e iOS proporcionan numerosas funcionalidades simila
 
 5. Haga clic en el botón **Instalar** para instalar el paquete NuGet. Deberá aceptar la licencia para continuar.
 
-    ![Adición del paquete NuGet Xamarin.Essentials a todos los proyectos de la solución](../media/2-add-essentials-nuget.png)
+    ![Adición del paquete NuGet Xamarin.Essentials a todos los proyectos de la solución](../media-drafts/2-add-essentials-nuget.png)
 
     > Si ejecuta este módulo localmente y desea que Android sea el destinatario, tendrá que realizar una configuración adicional. Para obtener más información consulte los [documentos de introducción a Xamarin.Essentials](https://docs.microsoft.com/xamarin/essentials/get-started?context=xamarin%2Fios&tabs=windows%2Candroid).
 
@@ -54,11 +54,11 @@ Las plataformas UWP, Android e iOS proporcionan numerosas funcionalidades simila
 
 2. Establezca la configuración de compilación en **Depurar**, la plataforma en **x86** y el dispositivo donde se va a ejecutar en **Máquina local**.
 
-    ![Establecimiento de la configuración Debug x86 que se va a ejecutar en el dispositivo local](../media/2-debug-configuration.png)
+    ![Establecimiento de la configuración Debug x86 que se va a ejecutar en el dispositivo local](../media-drafts/2-debug-configuration.png)
 
 3. Inicie la depuración de la aplicación.
 
-    ![Aplicación en ejecución](../media/2-debuging-app.png)
+    ![Aplicación en ejecución](../media-drafts/2-debuging-app.png)
 
 ## <a name="summary"></a>Resumen
 

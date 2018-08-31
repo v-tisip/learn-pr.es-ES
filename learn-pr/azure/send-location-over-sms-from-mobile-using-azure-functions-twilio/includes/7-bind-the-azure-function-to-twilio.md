@@ -33,7 +33,7 @@ Enviar mensajes SMS a través de Twilio requiere un enlace de salida configurado
 
     Cuando crea una cuenta de Twilio, se le asigna un número de teléfono desde el que puede enviar mensajes. Puede encontrar este número de teléfono en el panel **Números de teléfono** de Twilio. En el sitio de Twilio, seleccione los puntos suspensivos que aparecen en la parte inferior del menú de la izquierda. Luego, seleccione *SUPER NETWORK->Phone Numbers* (SUPER RED -> Números de teléfono). Puede usar el icono de anclar para anclar este panel al menú de la izquierda. Su número de Twilio estará en *Manage Numbers->Active Numbers* (Administrar números -> Números activos). Deberá quitar cualquier espacio que haya en el número.
 
-    ![Búsqueda del número de Twilio](../media/7-twilio-find-number.png)
+    ![Búsqueda del número de Twilio](../media-drafts/7-twilio-find-number.png)
 
     ```cs
     [TwilioSms(AccountSidSetting = "TwilioAccountSid",
@@ -130,15 +130,15 @@ public static async Task<HttpResponseMessage> Run([HttpTrigger(AuthorizationLeve
 
 4. Haga clic en el botón **Enviar ubicación**. Si el mensaje SMS se envió correctamente, verá un mensaje en la aplicación Xamarin.Forms que indica "Location sent successfully" (La ubicación se envió correctamente).
 
-    ![La aplicación Xamarin.Forms mostrando la ubicación como enviada](../media/7-ui-location-sent.png)
+    ![La aplicación Xamarin.Forms mostrando la ubicación como enviada](../media-drafts/7-ui-location-sent.png)
 
 5. En los registros de consola para la función de Azure, verá que se crea y envía el mensaje. Si se produce algún error (como que el número tiene un formato incorrecto), se registrará aquí.
 
-    ![La consola de la función de Azure mostrando que el mensaje se envió](../media/7-function-message-sent.png)
+    ![La consola de la función de Azure mostrando que el mensaje se envió](../media-drafts/7-function-message-sent.png)
 
 6. Revise el teléfono por si tiene un mensaje. Siga el vínculo en el mensaje para ver su ubicación.
 
-    ![Mensaje SMS recibido en un teléfono móvil](../media/7-message-received.png)
+    ![Mensaje SMS recibido en un teléfono móvil](../media-drafts/7-message-received.png)
 
 ## <a name="summary"></a>Resumen
 

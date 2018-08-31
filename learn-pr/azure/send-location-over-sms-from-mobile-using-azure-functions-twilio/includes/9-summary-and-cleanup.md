@@ -10,17 +10,17 @@ Cuando haya terminado de trabajar con esta aplicación de Azure Functions, puede
 
 3. Expanda la suscripción que usó para crear el grupo de recursos. Haga clic con el botón derecho en el grupo de recursos "ImHere" y seleccione *Abrir en el portal*.
 
-    ![Apertura del grupo de recursos en el portal desde la ventana de Cloud Explorer](../media/9-open-resource-group-in-portal.png)
+    ![Apertura del grupo de recursos en el portal desde la ventana de Cloud Explorer](../media-drafts/9-open-resource-group-in-portal.png)
 
 4. Si es necesario, inicie sesión en Azure Portal en el explorador.
 
 5. El portal se abrirá en el grupo de recursos "ImHere". Haga clic en el botón **Eliminar grupo de recursos**.
 
-    ![Eliminar el grupo de recursos](../media/9-delete-resource-group.png)
+    ![Eliminar el grupo de recursos](../media-drafts/9-delete-resource-group.png)
 
 6. Escriba el nombre del grupo de recursos para confirmar la eliminación y haga clic en **Eliminar**.
 
-    ![Escriba el nombre del grupo de recursos para confirmar la eliminación](../media/9-confirm-delete-resource-group.png)
+    ![Escriba el nombre del grupo de recursos para confirmar la eliminación](../media-drafts/9-confirm-delete-resource-group.png)
 
 ## <a name="summary"></a>Resumen
 

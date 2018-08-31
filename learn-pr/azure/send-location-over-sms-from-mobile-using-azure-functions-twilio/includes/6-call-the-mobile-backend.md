@@ -96,7 +96,7 @@ async Task SendLocation()
 
 2. Establezca la aplicación de UWP como la aplicación de inicio y ejecútela. Haga clic en el botón **Enviar ubicación**. Verá la salida en la ventana de la consola de la instancia de Functions Runtime, en donde se muestra la función a la que se llama, y el registro, en donde se muestra la URL generada.
 
-    ![Salida de la función a la que se llama](../media/6-function-called.png)
+    ![Salida de la función a la que se llama](../media-drafts/6-function-called.png)
 
 3. Para probar la generación de URL, péguela desde la consola en un explorador. Debería mostrar su ubicación actual.
 
